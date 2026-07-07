@@ -222,3 +222,4 @@ exdata/
 ppdata/
 results/
 !results/.gitkeep
+experiments/cocoex-example
