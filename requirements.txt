@@ -1,0 +1,24 @@
+# COCO benchmarking platform (https://coco-platform.org/getting-started/)
+coco-experiment   # import cocoex — running experiments on bbob suites
+cocopp            # post-processing, comparison with archived algorithms
+
+# CMA-ES implementations
+cma               # Hansen's pycma, reference CMA-ES
+modcma            # Modular CMA-ES (basis for the surrogate-assisted variant)
+
+# Deep learning (transformer surrogate models)
+# Locally installed as CPU-only build (see README); on MetaCentrum install the CUDA build.
+torch
+
+# Numerics & analysis
+numpy
+scipy
+pandas
+scikit-learn      # baseline surrogates (GP, RF) for comparison
+
+# Plotting
+matplotlib
+seaborn
+
+# Tooling
+tqdm
